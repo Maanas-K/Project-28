@@ -1,4 +1,3 @@
-
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -11,7 +10,7 @@ var mango1, mango2, mango3, mango4;
 var world,boy,chain1;
 
 function preload(){
-	boy=loadImage("images/boy.png");
+	boy=loadImage("boy.png");
   }
 
 function setup() {
@@ -87,5 +86,8 @@ function detectcollision(lstone,lmango){
 		Body.setStatic(lmango.body,false)
 	}
 }
+
+
+
 
 
